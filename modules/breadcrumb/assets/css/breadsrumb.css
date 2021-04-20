@@ -280,6 +280,8 @@ html {
 }
 
 .app .header {
+  position: fixed;
+  background-color: #fff;
   width: 100%;
   height: 56px;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
@@ -323,6 +325,11 @@ html {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   height: 100%;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  top: 56px;
+  background-color: #fff;
 }
 
 .app .app__container .app_container-navbar .navbar-menu {
@@ -394,5 +401,11 @@ html {
 
 .app .app__container .app_container-navbar .navbar-menu__list .navbar-menu__item .navbar-submenu__item:hover {
   color: #ee4d2d;
+}
+
+.app .app__container .app__container-main {
+  width: 100%;
+  height: 100vh;
+  background-color: #f6f6f6;
 }
 /*# sourceMappingURL=breadsrumb.css.map */
